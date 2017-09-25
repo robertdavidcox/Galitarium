@@ -1,0 +1,45 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    
+    
+	<style name="AppBaseTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:activatedBackgroundIndicator">@drawable/list_activated_background</item>
+
+    </style>
+    
+	    <!-- Application theme. -->
+	<style name="AppTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:activatedBackgroundIndicator">@drawable/list_activated_background</item>
+        <item name="numberPickerStyle">@style/NPWidget.Holo.Light.NumberPicker</item>
+              <item name="android:buttonStyle">@style/CustomButtonStyle</item>
+    </style>
+    
+	<style name="CustomDialog" parent="@android:style/Theme.Holo.Light.Dialog">
+    	<item name="android:background">@color/secondary</item>
+    	<item name="android:textColor">#fff</item>
+    	<item name="android:buttonStyle">@style/custom_button_style</item>
+	</style>
+	
+	<style name="CustomButtonStyle" parent="@android:attr/buttonStyle">
+        <item name="android:textColor">#fff</item>
+</style>
+
+	
+	<style name="custom_button_style" parent="android:style/Widget.Button.Small">
+	    <item name="android:textColor">#fff</item>
+	    <item name="android:background">@color/main</item>    
+	</style>
+	
+<style name="NPWidget.Holo.Light.NumberPicker" parent="NPWidget.Holo.NumberPicker">
+    <item name="selectionDivider">@drawable/yellow_divider</item>
+</style>
+	
+	
+
+
+
+</resources>

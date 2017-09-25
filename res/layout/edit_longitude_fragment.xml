@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+        <LinearLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal" >
+    	
+        <Switch 
+            android:id="@+id/lon_switch"
+            android:padding="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textOn="East"
+            android:textOff="West"
+            />
+    	
+    </LinearLayout>
+    
+    <LinearLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:orientation="horizontal"
+    	android:weightSum="3" >
+    	
+    	<NumberPicker android:id="@+id/longitude_picker"
+    	     android:layout_width="0dip"
+    	     android:layout_weight="1"
+    	     android:layout_height="wrap_content" />
+    	<NumberPicker android:id="@+id/longitude_minutes_picker"
+    	     android:layout_width="0dip"
+    	     android:layout_weight="1"
+    	     android:layout_height="wrap_content" />
+    	<NumberPicker android:id="@+id/longitude_seconds_picker"
+    	     android:layout_width="0dip"
+    	     android:layout_weight="1"
+    	     android:layout_height="wrap_content"/>
+        
+   	</LinearLayout>
+   	
+    
+
+</LinearLayout>

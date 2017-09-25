@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+       <declare-styleable name="RalewayThin">
+        <attr name="typeface" format="string" />
+    </declare-styleable>
+    
+     <declare-styleable name="RalewayLight">
+        <attr name="typeface1" format="string" />
+    </declare-styleable>
+    
+</resources>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusable="false"
+	android:focusableInTouchMode="false" >
+
+    
+    <LinearLayout
+        android:id="@+id/header_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="70sp"
+        android:minHeight="?android:attr/listPreferredItemHeightSmall"
+        android:orientation="vertical"
+        android:background="@color/main" >
+
+        <com.robert.starsproject.RalewayThin
+            android:id="@+id/header_title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+           	android:textColor="@color/const_yellow"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_gravity="center"
+            android:paddingTop = "21sp" />
+        
+    </LinearLayout>
+
+	<LinearLayout
+		android:id="@+id/item_with_pic_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="70sp"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical"
+        android:layout_marginTop="0sp"
+        android:minHeight="?android:attr/listPreferredItemHeightSmall"
+        android:gravity="center_vertical|left"
+        android:background="?android:attr/activatedBackgroundIndicator" >
+    
+		<LinearLayout	
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_vertical|left"
+			android:minHeight="70sp"
+			android:weightSum="7" >
+		
+			<ImageView
+				android:id="@+id/item_with_pic_icon"
+				android:layout_width="0sp"
+				android:layout_height="wrap_content"
+				android:layout_weight="1"
+				android:paddingLeft ="10sp" />
+
+		     
+			<com.robert.starsproject.RalewayThin
+				android:id="@+id/item_with_pic_name"
+				android:layout_width="0sp"
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:layout_weight = "6"
+				android:textColor="#fff"
+				android:paddingLeft="15sp" />
+		</LinearLayout>
+		
+	</LinearLayout>
+      
+	<LinearLayout
+		android:id="@+id/item_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="70sp"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical"
+        android:layout_marginTop="0sp"
+        android:minHeight="?android:attr/listPreferredItemHeightSmall"
+        android:gravity="center_vertical|left"
+        android:background="?android:attr/activatedBackgroundIndicator" >
+    
+		<com.robert.starsproject.RalewayThin
+			android:id="@+id/item_name"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:textColor="#fff"
+			android:paddingLeft="15sp" />
+		
+	</LinearLayout>
+      
+	<LinearLayout
+        android:id="@+id/toggle_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="70sp"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical"
+        android:layout_marginTop="0sp"
+        android:minHeight="?android:attr/listPreferredItemHeightSmall"
+        android:gravity="center_vertical|left"
+        android:background="?android:attr/activatedBackgroundIndicator" >
+		        
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_vertical|left"
+			android:minHeight="70sp" >
+    
+			<com.robert.starsproject.RalewayThin
+				android:id="@+id/toggle_name"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textColor="#fff"
+				android:paddingLeft="15sp" />
+		        
+		        
+		</LinearLayout>
+		
+	</LinearLayout>
+      
+	<LinearLayout
+		android:id="@+id/picker_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="70sp"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical"
+        android:layout_marginTop="0sp"
+        android:minHeight="?android:attr/listPreferredItemHeightSmall"
+        android:gravity="center_vertical|left"
+        android:background="?android:attr/activatedBackgroundIndicator" >
+          
+		<LinearLayout
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_vertical|left"
+			android:minHeight="70sp"
+			android:weightSum="7" >
+			
+		   	<com.robert.starsproject.RalewayThin
+				android:id="@+id/picker_name"
+				android:layout_width="0sp"
+				android:layout_height="wrap_content"
+				android:textAppearance="?android:attr/textAppearanceLarge"
+				android:textColor="#fff"
+				android:paddingLeft="15sp"
+				android:layout_weight="5"  />
+			
+
+			
+		</LinearLayout>
+		        
+      </LinearLayout>
+      
+</RelativeLayout>

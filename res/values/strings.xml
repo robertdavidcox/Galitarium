@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Galitarium</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="lesson_eight_error_could_not_create_vbo">Could not create vertex buffer object: %s</string>
+        <string name="lesson_eight_error_unknown">Unknown error: %s</string>
+    <color name="main">#242b3e</color>
+    <color name="secondary">#394051</color>
+    <color name="tertiary">#5a5f6f</color>
+    <color name="const_yellow">#fcfd00</color>
+        <color name="white">#ffffff</color>
+
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/change_location"
+		android:title="Change location" />
+	<item android:id="@+id/change_date"
+		android:title="Change date" />
+	<item android:id="@+id/change_time"
+		android:title="Change time" />
+	<item android:id="@+id/find_mercury"
+	    android:title="Find mercury" />
+	<item android:id="@+id/find_venus"
+	    android:title="Find venus" />
+	<item android:id="@+id/find_mars"
+	    android:title="Find mars" />
+	<item android:id="@+id/find_jupiter"
+	    android:title="Find jupiter" />
+	<item android:id="@+id/find_saturn"
+	    android:title="Find saturn" />
+	<item android:id="@+id/find_uranus"
+	    android:title="Find uranus" />
+	<item android:id="@+id/find_neptune"
+	    android:title="Find neptune" />
+	<item android:id="@+id/find_pluto"
+	    android:title="Find pluto" />
+	<item android:id="@+id/find_sun"
+	    android:title="Find the sun" />
+	<item android:id="@+id/accelerometer"
+	    android:title="Accelerometer" />
+	<item android:id="@+id/manual"
+	    android:title="Manual rotation" />
+	
+    
+
+</menu>
